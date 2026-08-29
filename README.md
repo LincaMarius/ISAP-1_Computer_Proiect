@@ -24,3 +24,5 @@ She built the SAP-1 computer using breadboards for a school project. It's a pity
 ## SAP-1 Computer Analysis
 I conducted an analysis of the SAP-1 computer here:
 
+https://github.com/LincaMarius/ISAP-1_Computer_Proiect/tree/main/SAP-1_Computer_Analysis
+
