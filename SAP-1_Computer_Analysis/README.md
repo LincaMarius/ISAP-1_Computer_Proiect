@@ -80,3 +80,6 @@ The instruction decoder has the structure of a classic decoder and activates a s
 The SAP-1 computer is based on micro-step control. For this purpose, a Step Counter block is required. The authors of the SAP-1 computer used a Ring Counter to implement the Step Counter.
 
 The Control Matrix has the role of generating control signals depending on the instruction that is executed in accordance with the current micro-step.
+
+![ Figure 5 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure5.png)
+
