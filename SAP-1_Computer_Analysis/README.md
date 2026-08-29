@@ -19,5 +19,13 @@ The first stage of any project is drawing the Block Diagram, which allows you to
 ### Original Block Diagram
 The original Block Diagram of the SAP-1 Computer can be found in the book "Digital Computer Electronics" by Albert Paul Malvino and Jerald A. Brown, on page 141 and is labeled Figure 10-1.
 
-In the following figure, I present a reproduction of the original Block Diagram of the SAP-1 Computer.
+In the following figure, I present a reproduction of the original Block Diagram of the SAP-1 Computer:
 
+![ Figure 1 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure1.png)
+
+### More detailed Block Diagram
+I studied the original schematic of the SAP-1 Computer and recreated the block diagram to represent the actual functional blocks as closely as possible and I present it in the following figure:
+
+![ Figure 2 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure2.png)
+
+The HLT control signal was omitted in the original Block Diagram.
