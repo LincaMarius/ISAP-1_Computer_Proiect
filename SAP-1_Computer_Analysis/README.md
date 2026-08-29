@@ -62,3 +62,21 @@ A diagram representing a computing system consisting of functional blocks CPU, R
 If we check the diagram of the SAP-1 computer we notice that these functional blocks are not grouped, we also cannot identify the three buses on the diagram. We are presented with only the data bus labeled "W Bus".
 
 So, I propose to redraw the Block Diagram of the SAP-1 computer so that we can easily separate these elements: CPU, RAM and I/O, as well as we can easily identify the three buses. 
+
+We get the following Block Diagram:
+
+![ Figure 4 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure4.png)
+
+### Control Unit structure
+The SAP-1 computer has a Control Unit made using logic gates.
+
+The Control Unit is built from three blocks:
+- Instruction Decoder,
+- Step Counter,
+- Control Matrix.
+
+The instruction decoder has the structure of a classic decoder and activates a single output depending on the instruction code presented at the input. The number of active outputs is equal to the number of instructions present in the Instruction Set.
+
+The SAP-1 computer is based on micro-step control. For this purpose, a Step Counter block is required. The authors of the SAP-1 computer used a Ring Counter to implement the Step Counter.
+
+The Control Matrix has the role of generating control signals depending on the instruction that is executed in accordance with the current micro-step.
