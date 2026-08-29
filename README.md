@@ -3,7 +3,7 @@ The ISAP-1 Computer is the improved version of the SAP-1 computer made by me.
 
 ISAP Computer stands for Improved Simple as Possible Computer.
 
-By: Lincă Marius Gheorghe,
+By: Lincă Marius Gheorghe, \
 https://github.com/LincaMarius
 
 ## About the project, brief description
