@@ -93,3 +93,12 @@ The output device consists of a register where 8 bits are written when the I/O c
 ![ Figure 6 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure6.png)
 
 ### Memory Subsystem
+The following figure shows the Memory Block of the SAP-1 computer:
+
+![ Figure 7 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure7.png)
+
+The Memory has two operating modes, dictated by the position of switch S2.
+
+When S2 is in the Run position, the /PGM signal is low and causes the Address Multiplexer to select the address from the input connected to the Memory Address Register. Also, the /CE control signal is connected to the /CE control pin of the RAM. The SAP-1 computer in this mode executes the program from memory.
+
+The Diagram of the Memory Block in Run Mode is as follows:
