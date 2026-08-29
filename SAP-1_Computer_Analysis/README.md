@@ -121,3 +121,7 @@ If the S4 (Deposit) switch is pressed, the /W control signal is set to the low v
 
 The Block Diagram of the Memory Block in Programming Mode is as follows:
 
+![ Figure 10 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure10.png)
+
+From this Diagram the Multiplexer can be ignored and we can obtain a simpler and easier to understand Diagram.
+
