@@ -139,3 +139,9 @@ We can synthesize a Block Diagram for the Memory Subsystem of the SAP-1 and ISAP
 
 ![ Figure 13 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure13.png)
 
+We can see an increased complexity of the Memory Subsystem imposed by the need to modify the contents of the Memory using the Control Panel switches.
+
+From what has been presented so far, we have seen that memory is functionally accessed during the execution of a program like a ROM memory, as we can see in the following figure:
+
+![ Figure 14 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure14.png)
+
