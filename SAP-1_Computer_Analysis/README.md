@@ -183,3 +183,17 @@ The architecture of the SAP-1 computer up to this point is as follows:
 If we take into account that the memory is seen as a ROM memory during program execution, we obtain the following block diagram:
 
 ![ Figure 18 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure18.png)
+
+We can distinguish the three subsystems of the computer:
+- The SAP-1 CPU
+- The Memory Subsystem
+- Inputs/Outputs Subsystem
+
+They are interconnected through the three buses:
+- 4-bit Address Bus
+- 8-bit Data Bus
+- 7-bit Control Bus
+
+The available address space for the SAP-1 computer in this structure is:
+- 16 bytes of Program Memory
+- 1 Output Devices
