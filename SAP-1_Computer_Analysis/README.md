@@ -180,3 +180,6 @@ The architecture of the SAP-1 computer up to this point is as follows:
 
 ![ Figure 17 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure17.png)
 
+If we take into account that the memory is seen as a ROM memory during program execution, we obtain the following block diagram:
+
+![ Figure 18 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure18.png)
