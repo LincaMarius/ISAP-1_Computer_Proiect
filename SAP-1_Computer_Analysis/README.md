@@ -150,3 +150,5 @@ The Reset circuit has the role of bringing the computer back to its initial stat
 
 The block diagram of the reset circuit is shown in the following figure:
 
+![ Figure 15 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure15.png)
+
