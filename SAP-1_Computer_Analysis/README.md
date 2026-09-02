@@ -21,7 +21,7 @@ The original Block Diagram of the SAP-1 Computer can be found in the book "Digit
 
 In the following figure, I present a reproduction of the original Block Diagram of the SAP-1 Computer:
 
-![ Figure 1 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/tree/main/SAP-1_Computer_Analysis/Pictures/Figure1.png)
+![ Figure 1 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure1.png)
 
 ### More detailed Block Diagram
 I studied the original schematic of the SAP-1 Computer and recreated the block diagram to represent the actual functional blocks as closely as possible and I present it in the following figure:
