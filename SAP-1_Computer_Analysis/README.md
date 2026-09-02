@@ -26,7 +26,7 @@ In the following figure, I present a reproduction of the original Block Diagram 
 ### More detailed Block Diagram
 I studied the original schematic of the SAP-1 Computer and recreated the block diagram to represent the actual functional blocks as closely as possible and I present it in the following figure:
 
-![ Figure 2 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/tree/main/SAP-1_Computer_Analysis/Pictures/Figure2.png)
+![ Figure 2 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure2.png)
 
 The HLT control signal was omitted in the original Block Diagram.
 
@@ -57,7 +57,7 @@ This fact is also presented by the authors in the Book in a simplified form on p
 
 A diagram representing a computing system consisting of functional blocks CPU, RAM, I/O and buses is presented in the following figure:
 
-![ Figure 3 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/tree/main/SAP-1_Computer_Analysis/Pictures/Figure3.png)
+![ Figure 3 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure3.png)
 
 If we check the diagram of the SAP-1 computer we notice that these functional blocks are not grouped, we also cannot identify the three buses on the diagram. We are presented with only the data bus labeled "W Bus".
 
@@ -65,7 +65,7 @@ So, I propose to redraw the Block Diagram of the SAP-1 computer so that we can e
 
 We get the following Block Diagram:
 
-![ Figure 4 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/tree/main/SAP-1_Computer_Analysis/Pictures/Figure4.png)
+![ Figure 4 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure4.png)
 
 ### Control Unit structure
 The SAP-1 computer has a Control Unit made using logic gates.
@@ -81,7 +81,7 @@ The SAP-1 computer is based on micro-step control. For this purpose, a Step Coun
 
 The Control Matrix has the role of generating control signals depending on the instruction that is executed in accordance with the current micro-step.
 
-![ Figure 5 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/tree/main/SAP-1_Computer_Analysis/Pictures/Figure5.png)
+![ Figure 5 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure5.png)
 
 ### Binary Display
 The simplest output device that can be connected to this Computer is a Binary Display. This device is used in the original construction of the SAP-1 Computer, where it is integrated directly into the structure of this Computer.
@@ -90,12 +90,12 @@ My version of the Block Diagram is identical to the original, except that I trea
 
 The output device consists of a register where 8 bits are written when the I/O control signal is activated and the rising edge of the clock occurs. Each bit from the output of this register is connected to an LED. This is a Binary Display.
 
-![ Figure 6 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/tree/main/SAP-1_Computer_Analysis/Pictures/Figure6.png)
+![ Figure 6 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure6.png)
 
 ### Memory Subsystem
 The following figure shows the Memory Block of the SAP-1 computer:
 
-![ Figure 7 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/tree/main/SAP-1_Computer_Analysis/Pictures/Figure7.png)
+![ Figure 7 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure7.png)
 
 The Memory has two operating modes, dictated by the position of switch S2.
 
@@ -103,11 +103,11 @@ When S2 is in the Run position, the /PGM signal is low and causes the Address Mu
 
 The Diagram of the Memory Block in Run Mode is as follows:
 
-![ Figure 8 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/tree/main/SAP-1_Computer_Analysis/Pictures/Figure8.png)
+![ Figure 8 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure8.png)
 
 From this Diagram the Multiplexer can be ignored and we can obtain a simpler and easier to understand Diagram:
 
-![ Figure 9 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/tree/main/SAP-1_Computer_Analysis/Pictures/Figure9.png)
+![ Figure 9 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure9.png)
 
 Thus, the Memory of the SAP-1 Computer in Run Mode is used as a ROM memory. Control input /CE if high disables the output which is three-state, and if low at the output, the data from the address selected by the Memory Address Register is presented on the Bus.
 
