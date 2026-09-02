@@ -130,3 +130,12 @@ From this Diagram the Multiplexer can be ignored and we can obtain a simpler and
 Since no Data is read from the Bus, so no Data is transferred to the Bus, this can also be ignored.
 
 ![ Figure 12 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure12.png)
+
+We can conclude that in programming mode the Memory is functionally separate from the SAP-1 computer.
+
+So, functionally speaking, the Memory is simply a ROM for the SAP-1 computer.
+
+We can synthesize a Block Diagram for the Memory Subsystem of the SAP-1 and ISAP-1 computers:
+
+![ Figure 13 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/Pictures/Figure13.png)
+
