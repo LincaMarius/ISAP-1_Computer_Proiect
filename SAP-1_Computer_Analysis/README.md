@@ -121,15 +121,15 @@ If the S4 (Deposit) switch is pressed, the /W control signal is set to the low v
 
 The Block Diagram of the Memory Block in Programming Mode is as follows:
 
-![ Figure 10 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure10.png)
+![ Figure 1-10 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-10.png)
 
 From this Diagram the Multiplexer can be ignored and we can obtain a simpler and easier to understand Diagram.
 
-![ Figure 11 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure11.png)
+![ Figure 1-11 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-11.png)
 
 Since no Data is read from the Bus, so no Data is transferred to the Bus, this can also be ignored.
 
-![ Figure 12 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure12.png)
+![ Figure 1-12 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-12.png)
 
 We can conclude that in programming mode the Memory is functionally separate from the SAP-1 computer.
 
@@ -137,20 +137,20 @@ So, functionally speaking, the Memory is simply a ROM for the SAP-1 computer.
 
 We can synthesize a Block Diagram for the Memory Subsystem of the SAP-1 and ISAP-1 computers:
 
-![ Figure 13 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure13.png)
+![ Figure 1-13 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-13.png)
 
 We can see an increased complexity of the Memory Subsystem imposed by the need to modify the contents of the Memory using the Control Panel switches.
 
 From what has been presented so far, we have seen that memory is functionally accessed during the execution of a program like a ROM memory, as we can see in the following figure:
 
-![ Figure 14 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure14.png)
+![ Figure 1-14 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-14.png)
 
 ### Reset Circuit
 The Reset circuit has the role of bringing the computer back to its initial state. Internally, the Central Processing Unit initializes the functional blocks so that they can begin stable execution of any program.
 
 The block diagram of the reset circuit is shown in the following figure:
 
-![ Figure 15 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure15.png)
+![ Figure 1-15 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-15.png)
 
 The circuit consists of a switch marked S5 with two positions followed by a debouncing circuit consisting of an RS flip-flop in the case of the SAP-1 computer.
 
@@ -171,18 +171,18 @@ Depending on the chosen operating mode, one of the two clock signals is selected
 
 The output of the multiplexer is taken by the buffer. Its role is to ensure the necessary fanout because the clock signal reaches all the functional blocks of the computer.
 
-![ Figure 16 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure16.png)
+![ Figure 1-16 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-16.png)
 
 The HLT input inhibits the clock signal when the computer has executed the HALT instruction.
 
 ### SAP-1 Computer architecture
 The architecture of the SAP-1 computer up to this point is as follows:
 
-![ Figure 17 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure17.png)
+![ Figure 1-17 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-17.png)
 
 If we take into account that the memory is seen as a ROM memory during program execution, we obtain the following block diagram:
 
-![ Figure 18 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures/Figure18.png)
+![ Figure 1-18 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-18.png)
 
 We can distinguish the three subsystems of the computer:
 - The SAP-1 CPU
