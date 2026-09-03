@@ -119,3 +119,5 @@ Loads the numeric value from Address [n] into the Accumulator.
 
 The timing diagram for the LDA instruction implemented on SAP-1 Computer is as follows:
 
+![ Figure 2-2 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Pictures2/Figure2-2.png)
+
