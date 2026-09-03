@@ -26,8 +26,3 @@ I conducted an analysis of the SAP-1 computer here:
 
 https://github.com/LincaMarius/ISAP-1_Computer_Proiect/tree/main/SAP-1_Computer_Analysis
 
-## SAP-1 Computer Instruction Set Analysis
-I have done an analysis of the SAP-1 Computer Instruction Set here:
-
-https://github.com/LincaMarius/ISAP-1_Computer_Proiect/tree/main/SAP-1_Instruction_Set
-
