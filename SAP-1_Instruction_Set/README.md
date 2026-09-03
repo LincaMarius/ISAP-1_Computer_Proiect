@@ -1,20 +1,4 @@
 # SAP-1 Computer Instruction Set Analysis
-The original Instruction Set of the SAP-1 computer is:
-
-| Mnemonic | Opcode | Operation                                  |
-|----------|--------|--------------------------------------------|
-| LDA      | 0000   | Load RAM data into Accumulator             |
-| ADD      | 0001   | Add RAM data to Accumulator                |
-| SUB      | 0010   | Substract RAM data from Accumulator        |
-| OUT      | 1110   | Load Accumulator data into Output Register |
-| HLT      | 1111   | Stop processing                            |
-
-From the analysis carried out so far we can draw the following conclusions:
-- the Size of Programs that can be run is only 16 bytes,
-- the SAP-1 Computer cannot retain the values of some variables because it cannot write to Memory,
-- jumps in the program cannot be made to perform repetitive tasks because it cannot be written to the Program Counter,
-- the SAP-1 Computer does not have a Stack, so program subroutines cannot be called,
-- there is no input device that allows manual data entry.
 
 ## SAP-1 Computer Instruction Format
 The original format of the SAP-1 computer instructions is:
@@ -36,6 +20,13 @@ The original instruction set of the SAP-1 computer is:
 | SUB n     | 0010   | Substract RAM data from Accumulator        |
 | OUT *     | 1110   | Load Accumulator data into Output Register |
 | HLT *     | 1111   | Stop processing                            |
+
+From the analysis carried out so far we can draw the following conclusions:
+- the Size of Programs that can be run is only 16 bytes,
+- the SAP-1 Computer cannot retain the values of some variables because it cannot write to Memory,
+- jumps in the program cannot be made to perform repetitive tasks because it cannot be written to the Program Counter,
+- the SAP-1 Computer does not have a Stack, so program subroutines cannot be called,
+- there is no input device that allows manual data entry.
 
 We can see that the following opcodes: 0011, 0100, 0101, 0110, 0111, 1000, 1001, 1010, 1011, 1100, 1101 are not used. So, we can add 11 more new instructions.
 
