@@ -121,3 +121,6 @@ The timing diagram for the LDA instruction implemented on SAP-1 Computer is as f
 
 ![ Figure 2-2 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Pictures2/Figure2-2.png)
 
+We can summarize the value of the control signals over time presented in these diagrams in the following table:
+
+![ Table 2-3 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Tables2/Table2-3.png)
