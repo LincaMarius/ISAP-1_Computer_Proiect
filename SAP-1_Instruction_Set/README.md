@@ -124,3 +124,11 @@ The timing diagram for the LDA instruction implemented on SAP-1 Computer is as f
 We can summarize the value of the control signals over time presented in these diagrams in the following table:
 
 ![ Table 2-3 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Tables2/Table2-3.png)
+
+Signals represented in Red: are active when data is written to the Data BUS \
+Signals represented in Green: are active when reading data from the Data BUS \
+Signals shown in Black: their activation has no influence on the Data BUS
+
+If we put all the output signals on columns and highlight the control signals used by the LDA instruction we obtain the Truth Table for the LDA instruction for the SAP-1 computer.
+
+![ Table 2-4 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Tables2/Table2-4.png)
