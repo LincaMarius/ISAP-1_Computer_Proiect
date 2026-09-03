@@ -1,4 +1,4 @@
-# SAP-1_Computer_Analysis
+# SAP-1 Computer Analysis
 The SAP-1 computer is introduced as a teaching project by Albert Paul Malvino and Jerald A. Brown in their book “Digital Computer Electronics”.
 
 The description of its architecture and operation is presented in the book starting on Page 140 and the diagram starting on page 154. The Parts List is presented on page 501.
