@@ -206,3 +206,20 @@ Signals shown in Black: their activation has no influence on the Data BUS.
 If we put all the output signals on columns and highlight the control signals used by the SUB instruction we obtain the Truth Table for the SUB instruction for the SAP-1 computer.
 
 ![ Table 2-8 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Tables2/Table2-8.png)
+
+*If we implement the Control Block using a ROM memory, the data in this table will be used to realize its content.*
+
+The Boolean equations for the signals that are active when the SUB instruction is executed for computer SAP-1 are:
+-	EP = T1
+-	LAR = T1 + SUB * T4
+-	CP = T2
+-	PM = T3 + SUB * T5
+-	LI = T3
+-	EI = SUB * T4
+-	LB = SUB * T5
+-	EU = SUB * T6
+-	LA = SUB * T6
+-	SU = SUB * T6
+
+*If we implement the Control Block using Combinational Logic we will use these equations.*
+
