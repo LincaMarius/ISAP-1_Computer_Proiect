@@ -271,3 +271,7 @@ Stops the further execution of computer instructions by interrupting the clock s
 The timing diagram for the HLT instruction implemented on SAP-1 Computer is as follows:
 
 ![ Figure 2-6 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Pictures2/Figure2-6.png)
+
+We can summarize the value of the control signals over time presented in this diagram in the following table:
+
+![ Table 2-11 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Tables2/Table2-11.png)
