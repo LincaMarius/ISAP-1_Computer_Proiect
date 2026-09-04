@@ -146,3 +146,13 @@ The Boolean equations for the signals that are active when the LDA instruction i
 
 *If we implement the Control Block using Combinational Logic we will use these equations.*
 
+## ADD instruction – ADD to accumulator
+Binary form:  0001 nnnn\
+Operation:  A ← A + [n]\
+Example: ADD 8h
+
+Adds the numeric value at address [n] with the numeric value stored in the Accumulator and stores the result in the Accumulator.
+
+The timing diagram for the ADD instruction implemented on SAP-1 Computer is as follows:
+
+![ Figure 2-3 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Pictures2/Figure2-3.png)
