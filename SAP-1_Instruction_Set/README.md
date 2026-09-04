@@ -296,3 +296,10 @@ The Boolean equations for the signals that are active when the HLT instruction i
 
 The control signal HLT is active starting from step T4 until the last step T6. In the original design of the SAP-1 computer, a timing diagram is not shown and this instruction is briefly described.
 
+But from the schematic you can see that gate C34 in the instruction decoder is active when we have the binary code 1111 corresponding to the HLT instruction. So, the control signal HLT is not influenced by the state of the T steps.
+
+This fact can be presented graphically as in Figure 22 where we see that for any step T4 – T6 the HLT control signal is active.
+
+Because the HALT instruction blocks the clock signal and the computer can no longer function, exiting this state can only be done by resetting the computer.
+
+*If we implement the Control Block using Combinational Logic we will use these equations.*
