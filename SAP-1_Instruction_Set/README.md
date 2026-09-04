@@ -184,3 +184,13 @@ The Boolean equations for the signals that are active when the ADD instruction i
 
 *If we implement the Control Block using Combinational Logic we will use these equations.*
 
+## SUB Instruction – SUBtract from accumulator
+Binary form:  0010 nnnn \
+Operation:  A ← A – [n] \
+Example: SUB 5h
+
+Subtracts the numeric value at Address [n] from the numeric value stored in the Accumulator and stores the result in the Accumulator.
+
+The timing diagram for the SUB instruction implemented on SAP-1 Computer is as follows:
+
+![ Figure 2-4 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Pictures2/Figure2-4.png)
