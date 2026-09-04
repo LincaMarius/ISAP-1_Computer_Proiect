@@ -169,3 +169,18 @@ If we put all the output signals on columns and highlight the control signals us
 
 ![ Table 2-6 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Tables2/Table2-6.png)
 
+*If we implement the Control Block using a ROM memory, the data in this table will be used to realize its content.*
+
+The Boolean equations for the signals that are active when the ADD instruction is executed for computer SAP-1 are:
+-	EP = T1
+-	LAR = T1 + ADD * T4
+-	CP = T2
+-	PM = T3 + ADD * T5
+-	LI = T3
+-	EI = ADD * T4
+-	LB = ADD * T5
+-	EU = ADD * T6
+-	LA = ADD * T6
+
+*If we implement the Control Block using Combinational Logic we will use these equations.*
+
