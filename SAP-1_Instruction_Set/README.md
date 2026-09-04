@@ -261,3 +261,13 @@ The Boolean equations for the signals that are active when the OUT instruction i
 
 *If we implement the Control Block using Combinational Logic we will use these equations.*
 
+## The HLT instruction – Halt computer
+Binary form:  1111 **** \
+Operation:  Halt computer \
+Example: HLT
+
+Stops the further execution of computer instructions by interrupting the clock signal.
+
+The timing diagram for the HLT instruction implemented on SAP-1 Computer is as follows:
+
+![ Figure 2-6 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Pictures2/Figure2-6.png)
