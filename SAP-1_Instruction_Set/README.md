@@ -156,3 +156,7 @@ Adds the numeric value at address [n] with the numeric value stored in the Accum
 The timing diagram for the ADD instruction implemented on SAP-1 Computer is as follows:
 
 ![ Figure 2-3 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Pictures2/Figure2-3.png)
+
+We can summarize the value of the control signals over time shown in these diagrams in the following table:
+
+![ Table 2-5 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Tables2/Table2-5.png)
