@@ -239,3 +239,11 @@ The timing diagram for the OUT instruction implemented on SAP-1 Computer is as f
 We can summarize the value of the control signals over time presented in this diagram in the following table:
 
 ![ Table 2-9 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Tables2/Table2-9.png)
+
+Signals represented in Red: are active when data is written to the Data BUS. \
+Signals represented in Green: are active when reading data from the Data BUS. \
+Signals shown in Black: their activation has no influence on the Data BUS.
+
+If we put all the output signals on columns and highlight the control signals used by the OUT instruction we obtain the Truth Table for the OUT instruction for the SAP-1 computer.
+
+![ Table 2-10 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Instruction_Set/Tables2/Table2-10.png)
