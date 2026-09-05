@@ -184,6 +184,10 @@ If we take into account that the memory is seen as a ROM memory during program e
 
 ![ Figure 1-18 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-18.png)
 
+Now we can also update the computer block diagram:
+
+![ Figure 1-19 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-19.png)
+
 We can distinguish the three subsystems of the computer:
 - The SAP-1 CPU
 - The Memory Subsystem
