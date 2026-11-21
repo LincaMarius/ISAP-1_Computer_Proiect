@@ -22,10 +22,16 @@ Presented below is a reproduction of the original block diagram of the SAP-1 com
 
 ![ Figure 1-1 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-1.png)
 
-### More detailed Block Diagram
-I studied the original schematic of the SAP-1 Computer and recreated the block diagram to represent the actual functional blocks as closely as possible and I present it in the following figure:
+## Block Diagram for an Editable ROM
+In the third edition of the book, the authors introduce RAM in place of ROM and, using external circuitry, allow the user to modify the contents of this memory. During program execution, however, the memory functions as read-only, much like ROM.
+
+Below is a reproduction of the block diagram of the SAP-1 computer, as presented in the third edition of the book:
 
 ![ Figure 1-2 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-2.png)
+
+I studied the original schematic of the SAP-1 computer in the third edition of the book and recreated the block diagram to represent the actual functional blocks as accurately as possible; I present it in the following figure:
+
+![ Figure 1-3 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-3.png)
 
 The HLT control signal was omitted in the original Block Diagram.
 
