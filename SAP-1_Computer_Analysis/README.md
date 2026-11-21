@@ -83,7 +83,7 @@ So, I propose to redraw the Block Diagram of the SAP-1 computer so that we can e
 
 We get the following Block Diagram:
 
-![ Figure 1-4 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-4.png)
+![ Figure 1-5 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-5.png)
 
 ### Control Unit structure
 The SAP-1 computer has a Control Unit made using logic gates.
