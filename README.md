@@ -1,16 +1,16 @@
 # ISAP-1 Computer Project
 My SAP-1 Computer optimization project. \
-The ISAP-1 Computer is the improved version of the SAP-1 computer made by me.
-
-ISAP Computer stands for Improved Simple as Possible Computer.
+The ISAP-1 Computer is the improved version of the SAP-1 computer made by me. \
+ISAP Computer stands for Improved Simple As Possible Computer.
 
 By: Lincă Marius Gheorghe, \
-https://github.com/LincaMarius
+https://github.com/LincaMarius \
+https://marius-electronics-blog.blogspot.com/2026/11/blog-post_700.html
 
 ## About the project, brief description
 The goal of this project is to create a more efficient version of the SAP-1 (Simple As Possible) computer, but with minimal changes so that the instruction format remains the same.
 
-Credits are given to Albert Paul Malvino and Jerald A. Brown for introducing this architecture in their book Digital Computer Electronics and Ben Eater for implementing his own version of the SAP Computer using IC's and breadboards.
+Credits are given to Albert Paul Malvino and Jerald A. Brown for introducing this architecture in their book "Digital Computer Electronics" and Ben Eater for implementing his own version of the SAP Computer using IC's and breadboards.
 
 References: \
 - Ben Eater's 8 Bit computer videos. Building an 8-bit breadboard computer! https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU
