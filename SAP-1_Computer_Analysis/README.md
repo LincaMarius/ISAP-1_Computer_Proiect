@@ -143,9 +143,9 @@ The Block Diagram of the Memory Block in Programming Mode is as follows:
 
 ![ Figure 1-11 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-11.png)
 
-From this Diagram the Multiplexer can be ignored and we can obtain a simpler and easier to understand Diagram.
+From this Diagram the Multiplexer can be ignored and we can obtain a simpler and easier to understand Diagram:
 
-![ Figure 1-11 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-11.png)
+![ Figure 1-12 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-12.png)
 
 Since no Data is read from the Bus, so no Data is transferred to the Bus, this can also be ignored.
 
