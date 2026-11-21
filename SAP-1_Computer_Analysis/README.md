@@ -165,12 +165,12 @@ From what has been presented so far, we have seen that memory is functionally ac
 
 ![ Figure 1-15 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-15.png)
 
-### Reset Circuit
+## Reset Circuit
 The Reset circuit has the role of bringing the computer back to its initial state. Internally, the Central Processing Unit initializes the functional blocks so that they can begin stable execution of any program.
 
 The block diagram of the reset circuit is shown in the following figure:
 
-![ Figure 1-15 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-15.png)
+![ Figure 1-16 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-16.png)
 
 The circuit consists of a switch marked S5 with two positions followed by a debouncing circuit consisting of an RS flip-flop in the case of the SAP-1 computer.
 
