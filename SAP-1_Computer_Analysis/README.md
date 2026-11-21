@@ -121,7 +121,7 @@ When S2 is in the Run position, the /PGM signal is low and causes the Address Mu
 
 The Diagram of the Memory Block in Run Mode is as follows:
 
-![ Figure 1-8 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-8.png)
+![ Figure 1-9 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-9.png)
 
 From this Diagram the Multiplexer can be ignored and we can obtain a simpler and easier to understand Diagram:
 
