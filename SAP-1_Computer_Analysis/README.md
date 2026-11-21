@@ -163,7 +163,7 @@ We can see an increased complexity of the Memory Subsystem imposed by the need t
 
 From what has been presented so far, we have seen that memory is functionally accessed during the execution of a program like a ROM memory, as we can see in the following figure:
 
-![ Figure 1-14 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-14.png)
+![ Figure 1-15 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-15.png)
 
 ### Reset Circuit
 The Reset circuit has the role of bringing the computer back to its initial state. Internally, the Central Processing Unit initializes the functional blocks so that they can begin stable execution of any program.
