@@ -1,5 +1,5 @@
 # SAP-1 Computer Analysis
-The SAP-1 computer is introduced as a teaching project by Albert Paul Malvino and Jerald A. Brown in their book “Digital Computer Electronics”.
+The SAP-1 is a minimal 8-bit computer, designed specifically for educational purposes and popularized by Albert Malvino in the book "Digital Computer Electronics" to illustrate the fundamental concepts of the Von Neumann architecture: fetching instructions from memory (Fetch), decoding them (Decode), and executing them (Execute).
 
 The description of its architecture and operation is presented in the book starting on Page 140 and the diagram starting on page 154. The Parts List is presented on page 501.
 
