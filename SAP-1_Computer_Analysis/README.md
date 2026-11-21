@@ -35,6 +35,19 @@ I studied the original schematic of the SAP-1 computer in the third edition of t
 
 The HLT control signal was omitted in the original Block Diagram.
 
+Although it lacks the computing power of a modern computer, the SAP-1 contains all the essential blocks of any real processor:
+- Data bus (8-bit W-Bus): This is the central data "highway" that connects all the modules to one another. At any given time, only one module can write data to the bus (using tri-state buffers), while one or more modules can read the data.
+- Clock Module: The heart of the system, which generates the synchronization signal (CLK). It includes both an automatic mode (fixed frequency of 1 kHz) and a manual mode (step-by-step via a push-button), which is essential for debugging.
+- Program Counter (PC): A 4-bit counter that keeps track of the address of the next instruction to be executed from memory.
+- RAM (16 x 8 bits): A 16-byte static memory used to store both the program and the data. Programming is performed manually, bit by bit, using switches.
+- MAR (Memory Address Register): A 4-bit temporary storage register that holds the current address of data being accessed from RAM.
+- Registers A, B, and the Instruction Register (IR): 8-bit, high-speed temporary storage registers. Register A is the Accumulator, Register B holds the second operand for the arithmetic/logic unit, and the IR stores the code for the current instruction.
+- ALU (Arithmetic and Logic Unit): Performs basic mathematical operations (addition and subtraction using two's complement) between Register A and Register B. The result of the arithmetic operation is automatically stored in the Accumulator Register.
+- Control Unit (Control Sequencer): The brain of the computer. It receives the operation code from the Instruction Register and activates the appropriate control signals (e.g., RAM read, loading Register A, incrementing the PC) at each clock cycle, using a control matrix implemented with logic gates.
+- Output Register: An 8-bit temporary storage register. It holds the value placed on the data bus during the execution of the OUT instruction.
+- Binary Display: Shows the final result of the calculations in binary format using 8 LEDs.
+
+## User manual for the SAP-1 computer
 The programming mode of the SAP-1 Computer described by the authors is as follows: \
 a.	Move selector S2 to the PROG position to enter Programming Mode, \
 b.	Select with the S1 switches the memory address whose content you want to modify, \
@@ -47,7 +60,7 @@ In practice, the content of the RAM memory is edited, after which its content is
 
 This Computer has no instruction to write data to memory. This is specific to read-only ROMs. So, one ROM can be used for each program.
 
-### Identification of Computer Components
+## Identification of Computer Components
 As we learned in school, a computer can be represented by 3 distinct functional blocks:
 - CPU (Central Processing Unit),
 - Memory,
@@ -62,7 +75,7 @@ This fact is also presented by the authors in the Book in a simplified form on p
 
 A diagram representing a computing system consisting of functional blocks CPU, RAM, I/O and buses is presented in the following figure:
 
-![ Figure 1-3 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-3.png)
+![ Figure 1-4 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-4.png)
 
 If we check the diagram of the SAP-1 computer we notice that these functional blocks are not grouped, we also cannot identify the three buses on the diagram. We are presented with only the data bus labeled "W Bus".
 
