@@ -117,6 +117,7 @@ The following figure shows the Memory Block of the SAP-1 computer:
 
 The Memory has two operating modes, dictated by the position of switch S2.
 
+### Run Mode
 When S2 is in the Run position, the /PGM signal is low and causes the Address Multiplexer to select the address from the input connected to the Memory Address Register. Also, the /CE control signal is connected to the /CE control pin of the RAM. The SAP-1 computer in this mode executes the program from memory.
 
 The Diagram of the Memory Block in Run Mode is as follows:
@@ -129,8 +130,9 @@ From this Diagram the Multiplexer can be ignored and we can obtain a simpler and
 
 Thus, the Memory of the SAP-1 Computer in Run Mode is used as a ROM memory. Control input /CE if high disables the output which is three-state, and if low at the output, the data from the address selected by the Memory Address Register is presented on the Bus.
 
-In this case, the /CE control signal has the #CE function for chip activation but also the #OE (Output Enable) function specific to ROM memories.
+In this case, the /CE control signal has the #CE (Chip Enable) function for chip activation but also the #OE (Output Enable) function specific to ROM memories.
 
+### Programming Mode
 When switch S2 is in the “Program” Position, the /PGM signal is high and causes the Address Multiplexer to select the address from the input connected to Address Select Switches S1.
 
 The control input /CE is set low, so at the Memory output, the Data from the Address selected by the Address Select Switches S1 are presented on the Bus.
@@ -139,7 +141,7 @@ If the S4 (Deposit) switch is pressed, the /W control signal is set to the low v
 
 The Block Diagram of the Memory Block in Programming Mode is as follows:
 
-![ Figure 1-10 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-10.png)
+![ Figure 1-11 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-11.png)
 
 From this Diagram the Multiplexer can be ignored and we can obtain a simpler and easier to understand Diagram.
 
