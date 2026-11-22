@@ -195,6 +195,18 @@ The output of the multiplexer is taken by the buffer. Its role is to ensure the 
 
 The HLT input inhibits the clock signal when the computer has executed the HALT instruction.
 
+## Central Processing Unit
+A CPU (Central Processing Unit) is the "brain" of any computer; it is responsible for executing instructions and performing the calculations necessary for programs to function.
+
+To determine the composition of the Central Processing Unit of the SAP-1 computer, we start with the block diagram in Figure 1-5, from which we remove the irrelevant blocks.
+
+From here, we will remove all elements from the Control Panel, the RAM, and the power supply.
+
+Only the following functional blocks will remain, which together form the Central Processing Unit of the SAP-1 computer:
+
+![ Figure 1-18 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-18.png)
+
+
 ### SAP-1 Computer architecture
 The architecture of the SAP-1 computer up to this point is as follows:
 
