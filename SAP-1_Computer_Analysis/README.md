@@ -210,14 +210,10 @@ The Control Matrix has the role of generating control signals depending on the i
 
 ![ Figure 1-6 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-6.png)
 
-
-
-
-
-### SAP-1 Computer architecture
+## SAP-1 Computer architecture
 The architecture of the SAP-1 computer up to this point is as follows:
 
-![ Figure 1-17 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-17.png)
+![ Figure 1-20 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-20.png)
 
 If we take into account that the memory is seen as a ROM memory during program execution, we obtain the following block diagram:
 
