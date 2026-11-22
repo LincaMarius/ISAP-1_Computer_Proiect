@@ -85,22 +85,6 @@ We get the following Block Diagram:
 
 ![ Figure 1-5 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-5.png)
 
-## Control Unit structure
-The SAP-1 computer has a Control Unit made using logic gates.
-
-The Control Unit is built from three blocks:
-- Instruction Decoder,
-- Step Counter,
-- Control Matrix.
-
-The Instruction Decoder has the structure of a classic decoder and activates a single output depending on the instruction code presented at the input. The number of active outputs is equal to the number of instructions present in the Instruction Set.
-
-The SAP-1 computer is based on micro-step control. For this purpose, a Step Counter block is required. The authors of the SAP-1 computer used a Ring Counter to implement the Step Counter.
-
-The Control Matrix has the role of generating control signals depending on the instruction that is executed in accordance with the current micro-step.
-
-![ Figure 1-6 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-6.png)
-
 ## Binary Display
 The simplest output device that can be connected to this Computer is a Binary Display. This device is used in the original construction of the SAP-1 Computer, where it is integrated directly into the structure of this Computer.
 
@@ -209,6 +193,25 @@ Only the following functional blocks will remain, which together form the Centra
 I propose a rearrangement of these blocks to facilitate easier connection to the buses. I have swapped the positions of the Program Counter and the Memory Address Register.
 
 ![ Figure 1-19 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-19.png)
+
+## Control Unit structure
+The SAP-1 computer has a Control Unit made using logic gates.
+
+The Control Unit is built from three blocks:
+- Instruction Decoder,
+- Step Counter,
+- Control Matrix.
+
+The Instruction Decoder has the structure of a classic decoder and activates a single output depending on the instruction code presented at the input. The number of active outputs is equal to the number of instructions present in the Instruction Set.
+
+The SAP-1 computer is based on micro-step control. For this purpose, a Step Counter block is required. The authors of the SAP-1 computer used a Ring Counter to implement the Step Counter.
+
+The Control Matrix has the role of generating control signals depending on the instruction that is executed in accordance with the current micro-step.
+
+![ Figure 1-6 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-6.png)
+
+
+
 
 
 ### SAP-1 Computer architecture
