@@ -206,6 +206,10 @@ Only the following functional blocks will remain, which together form the Centra
 
 ![ Figure 1-18 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-18.png)
 
+I propose a rearrangement of these blocks to facilitate easier connection to the buses. I have swapped the positions of the Program Counter and the Memory Address Register.
+
+![ Figure 1-19 ](https://github.com/LincaMarius/ISAP-1_Computer_Proiect/blob/main/SAP-1_Computer_Analysis/Pictures1/Figure1-19.png)
+
 
 ### SAP-1 Computer architecture
 The architecture of the SAP-1 computer up to this point is as follows:
